@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal and real-time data Attributes</title>
+    <link rel="stylesheet"  href="Styles.css"/>
+
+
+
+</head>
+<body>
+    <header>
+        <h3>A webpage showing Personal and real-time data Attributes</h3>
+    </header>
+
+    <main>
+        <section class="real-time-data-info">
+            <div class="info-item">
+                <label for="slack-username">Slack Username</label>
+                <p data-testid="slackUserName" id="slack-username">Aishat Muhammed</p>
+            </div>
+            <div class="info-item user-picture">
+                <label for="slack-profilePicture">Slack Display Image</label>
+                <div class= "user-picture-container">
+                    <img src="./Assets/WhatsApp Image 2023-09-07 at 20.31.11.jpeg" data-testid="slackDisplayImage" alt="Aishat Muhammed"/>
+                </div>
+               
+            </div>
+            <div class="info-item">
+                <label for="day-of-the-week">Day of the week</label>
+                <p data-testid="currentDayOfTheWeek" id="day-of-the-week">Monday</p>
+            </div>
+            <div class="info-item">
+                <label for="utc-time">UTC time</label>
+                <p data-testid="currentUTCTime" id="utc-time">20:05</p>
+            </div>
+            <div class="info-item">
+                <label for="my-track">My track</label>
+                <p data-testid="myTrack" id="my-track">Front-End</p>
+            </div>
+            <div class="github-url">
+                <label for="github-url">Github Url</label>
+                <a href="https://github.com/Aysha-py" data-testid="githubURL" target="_blank">Github Repository</a>
+            </div>
+        </section>
+    </main>
+    <script src="Script.js"></script>
+    
+</body>
+</html>
